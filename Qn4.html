@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <br /><br />
+
+      <form action="#">
+        <fieldset style="width: 30%">
+          <legend>Academic information</legend>
+          <label for="Degree">Degree</label>
+          <select name="Degree">
+            <option value="Master of Business Administration">
+              Master of Business Administration
+            </option>
+            <option value="Computer Science">Computer Science</option></select
+          ><br />
+          <label for="StudentID">StudentID <input type="text" /></label><br />
+          <label for="Classes attended"></label>
+          <select>
+            <option value="">Geography</option>
+            <option value="">Mathematics</option>
+            <option value="">English</option>
+          </select>
+        </fieldset>
+
+        <fieldset style="width: 30%">
+          <legend>Personal Details</legend>
+          <br />
+          <label for="StudentID">First Name <input type="text" /></label><br />
+          <label for="StudentID">Last Name <input type="text" /></label><br />
+          <label for="Gender">Gender</label>
+          <input type="radio" name="gender" id="male" />
+          <input type="radio" name="gender" id="female" /><br />
+          <label for="StudentID">Email <input type="text" /></label><br />
+        </fieldset>
+        
+        <textarea name="terms" id="term" cols="50" rows="10" placeholder="TERMS AND CONDITIONS..."></textarea>
+        <br /><br />
+        <button>Send Form</button>
+        <button>Clear Form</button>
+      </form>
+  </body>
+</html>
